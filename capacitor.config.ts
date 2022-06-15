@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'auth0',
+  appId: 'com.jarcatech.mitienda',
+  appName: 'Auth0 Demo',
   webDir: 'www',
   bundledWebRuntime: false
 };

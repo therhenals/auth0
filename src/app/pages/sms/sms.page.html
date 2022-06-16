@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>sms</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Phone</ion-label>
+    <ion-input [(ngModel)]="phone"></ion-input>
+  </ion-item>
+  <ion-button (click)="send()">
+    Enviar
+  </ion-button>
+  <ion-item>
+    <ion-label>Code</ion-label>
+    <ion-input [(ngModel)]="code"></ion-input>
+  </ion-item>
+  <ion-button (click)="login()">
+    Iniciar
+  </ion-button>
+</ion-content>

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Iniciar Sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button (click)="login()" expand="block">
+    Iniciar Sesion
+  </ion-button>
+
+  <ion-button (click)="authService.logout()" expand="block">
+    logout
+  </ion-button>
+</ion-content>

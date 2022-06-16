@@ -1,0 +1,6 @@
+{
+	"appId": "com.jarcatech.mitienda",
+	"appName": "Auth0 Demo",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
